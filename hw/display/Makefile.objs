@@ -29,7 +29,7 @@ obj-$(CONFIG_SM501) += sm501.o
 obj-$(CONFIG_TCX) += tcx.o
 obj-$(CONFIG_CG3) += cg3.o
 
-obj-$(CONFIG_VGA) += vga.o
+obj-$(CONFIG_VGA) += vga.o vgpu.o
 
 common-obj-$(CONFIG_QXL) += qxl.o qxl-logger.o qxl-render.o
 
